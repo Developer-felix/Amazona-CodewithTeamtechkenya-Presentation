@@ -1,0 +1,145 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <div class="container">
+
+
+
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <div class="row">
+            <form class="col s12" method="POST">
+
+
+             <div class="row">
+              <div class="input-field col s12 m6 l6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input placeholder="eg. Example" id="first_name" type="text" class="validate">
+                  <label for="icon_prefix">First Name</label>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input placeholder="eg. Name2" id="last_name"  type="text" class="validate">
+                  <label for="last_name">Second Name</label>
+                </div>
+              </div>
+
+              
+              <div class="row">
+                <div class="input-field col s12 ">
+                  
+                  <i class="material-icons prefix">mail_online</i>
+                   <input placeholder="eg. example@gmail.com" id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 ">
+                  <i class="material-icons prefix">school</i>
+                  <input placeholder="eg. Karatina University" id="university" type="text" class="validate">
+                  <label for="university">University</label>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="input-field col s12">
+                  
+                  <input placeholder="eg. Karatina" id="location" type="text" class="validate">
+                  <label for="location">Location</label>
+                  <i class="material-icons prefix">location_on</i> 
+                </div>
+              </div>
+              
+              
+
+
+
+
+
+
+
+                
+                <p>
+                  <p>Select the  Technology you want to learn</p>
+                  
+                  <label>
+                    <input type="checkbox" />
+                    <span>Web Development</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>   Android development</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>   Machine learning</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>   IoT</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>   SEO</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>  Database Management</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>  Web Backend</span>
+                  </label>
+                  <label>
+                    <input type="checkbox" />
+                    <span>  Web Frontend</span>
+                  </label>
+                </p>
+                
+                
+                </p>
+              
+                <button class="btn waves-effect waves-light center" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+
+
+
+
+
+            </form>
+          </div>
+                
+        </div>
+        <div class="col s2"></div>
+      </div>
+    </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js">
+    
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+      </script>
+    </body>
+  </html>
